@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PosterCP - Anonim Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="chat-container">
+        <div id="chat-window">
+            <div id="output"></div>
+        </div>
+        <input id="message" type="text" placeholder="Mesajını yaz..." autocomplete="off">
+        <button id="send">Gönder</button>
+    </div>
+
+    <!-- Firebase kütüphaneleri -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    
+    <!-- Bizim Javascript kodumuz -->
+    <script src="app.js"></script>
+
+</body>
+</html>
